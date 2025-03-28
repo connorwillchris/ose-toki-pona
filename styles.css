@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 table, td, td, th {
     border: 1px solid;
 }
@@ -5,13 +9,36 @@ table, td, td, th {
 table {
     border-collapse: collapse;
 }
-body {
-    font-family: Arial, Helvetica, sans-serif;
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    background-color: #999;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.column {
+    width: 100ch;
+    padding: 20px;
+    background-color: #ddd;
+    box-shadow: 0px 4px 10px black;
+    border-radius: 8px;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #444;
 }
 
 .navbar a {
@@ -40,7 +67,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: black;
 }
 
 .dropdown-content {
